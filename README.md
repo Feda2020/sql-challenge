@@ -24,10 +24,10 @@ In this part I used QuickDBD to sketch an Entity Relationship Diagram of the tab
 |-----------------|-----------------------|----------------|--------------------|------------------|
 | department | dept_no PK | one to many | dept_no FK | dept_emp |
 | department | dept_no PK | one to many | dept_no FK | dept_managers |
-| employees| emp_no PK | one to many | emp_no | dept_emp |
-| employees| emp_no PK | one to many | emp_no  | dept_managers |
-| employees| emp_no PK | one to many | emp_no  | salaries |
-| employees | emp_title FK | one to many | emp_no  | salaries |
+| employees| emp_no PK | one to many | emp_no FK | dept_emp |
+| employees| emp_no PK | one to many | emp_no FK | dept_managers |
+| employees| emp_no PK | one to many | emp_no FK | salaries |
+| employees | emp_title FK | one to many | title_id PK  | titles |
 
 
 ## Data Modeling Image
